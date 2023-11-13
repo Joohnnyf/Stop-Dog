@@ -1,0 +1,509 @@
+
+.navbar-nav{
+    align-items: center;
+    
+}
+
+#iconeb{
+    margin: 0 15px 0 0x;
+     
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 1400px;
+    height: auto;
+    padding: 20px 0;
+    overflow:hidden;   
+    display: flex;
+}
+
+.slide-box{
+    width: 100%;
+    height: 538px;
+    position: relative;
+    transition: 1s;
+    
+}
+
+
+
+.nav-manual, .nav-auto{
+    position:absolute;
+    width: 1400px;
+    margin-top: 470px;
+    display: flex;
+    justify-content:center;
+   
+   
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+
+    padding: 7px;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+    
+}
+.nav-manual .manual-btn:hover {
+    background-color: #246EC4;
+}
+
+
+.slider-content{
+    width: 600%;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.slider-content input{
+    display: none;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~.nav-auto .auto-btn2, #radio3:checked ~.nav-auto .auto-btn3{
+    background-color: rgb(122, 122, 122)
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0px;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -1405px;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -2810px;
+}
+
+.background{
+    background: linear-gradient(45deg, #399DC9, #498CD6, #4380D5, #3766CE);
+}
+ul{
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 0.6;
+    align-items: center;
+    justify-content: center;
+    
+}
+li{
+    color:aliceblue;
+    display: inline-block;
+    margin: 15px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.icone-favorito{
+    display:flex;
+    align-items: center;
+    margin-left: 12px;
+      
+}
+#Logo{
+    
+    display:flex;
+    justify-content: center;
+    margin: 0 0 0 40px;
+
+}
+
+form{
+    display: flex;
+    width: 20%;
+    height: auto;
+       
+}
+
+#img-baner2{
+    width: 1400;;
+}
+
+.Minibaner1{
+    background: linear-gradient(45deg, #399DC9, #498CD6, #4380D5, #3766CE);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    margin:0 auto
+}
+
+
+#div-Minibaner{
+    
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content:space-evenly;
+    width: 100%;
+
+    
+}
+
+.box-icon-tex{
+
+    display: flex;
+
+}
+
+.text-baner1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-bar01 img{
+    margin: 0 15px 0 0;
+}
+
+#icone-bar2{
+    
+    margin: 0 60px 0 0;
+    
+}
+
+
+::placeholder{
+
+color: rgb(141, 141, 141);
+padding: 14px;
+
+}
+
+.tag-produtos{
+    background-color: #3C82D3;
+    width: 300px ;
+    border-radius: 10px;
+    margin:  90px 25px 15px;
+   
+}
+
+.tag-produtos h6{
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+ 
+}
+
+.box-buy{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 381.107px;
+    height: 615.424px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    margin: 25px;
+    position: relative;
+    
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+
+    
+}
+
+.produto{
+    display:flex;
+    align-items: center;
+    
+}.heart-icon{
+    position: absolute;
+    top: 37px;
+    right: 37px;
+}
+.div-comprar{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.button-18 {
+    align-items: center;
+    background-color:#246EC4;
+    border: 0;
+    border-radius: 100px 0 0 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: normal;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 35px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+} 
+
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+}
+
+.right{
+    border-radius: 0 100px 100px 0;
+    margin-left: -5px;
+    width: 20px;
+    background-color: #1D98CE ;
+}
+
+.right:active{
+    
+    background: #DE981B;
+    color: rgb(255, 255, 255, .7);
+    
+    
+
+}
+
+.text-sub{
+    padding: 0 70px;
+    
+}
+
+.color-prime{
+    color: #258CCF;
+}
+
+.scroll-left {
+    display: flex;
+    height: 700px;
+    align-items: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    
+}
+
+.scroll-left:first-child{
+    padding: 50px;
+}
+
+.baner-img2{
+    padding: 50px 0;
+}
+
+.Petshop-PPG{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin: 0  30;
+     color: rgba(36, 110, 196, 1);
+
+}
+
+#Petshop-titulo{
+
+    font-size: 150px;
+    text-align: left;
+}
+
+#Petshop-text{
+    font-size: 28px;
+    text-align: left;
+    margin-left: 32px;
+}
+
+.button-Petshop-PPG{
+    color: #ffffff;
+    background-color:rgba(36, 110, 196, 1) ;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 190px;
+    height: 50px;
+    font-size:20px;
+    margin-top: 30px;
+}
+.box-marcas{
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    margin: 20px 20px 70px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-marcas img{
+    padding: 15px;
+    
+}
+
+.box-img-marcas{
+    justify-content: center;
+    align-items: center;
+    margin: 35px
+}
+.baner-final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: 686px;
+    position: relative;
+}
+
+#baner-final1 {
+    background: url(/components/images/Mini_banner/baner-final/baner-final.png);
+    
+}
+
+.text1{
+    
+    position: absolute;
+    margin: 5px 80px 100px 800px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.text2{
+
+    position: absolute;
+    margin:25px 80px 30px 800px;
+    font-size: 60px;
+    color: #FF8C05;
+}
+.form-number{
+   flex-direction: column;
+    margin: 25px 80px 30px 900px;
+    margin-top: 170px;
+    border-radius: 60px;
+    color: #1a8cbc;
+    width: 250px;
+}
+
+.caixa2{
+    border-radius: 15px;
+    margin: 5px;
+    color:#ffffff;
+    background-color:#1a8cbc;
+    
+
+}
+
+.caixa1{
+    border-radius: 15px;
+
+}
+
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    width: 100%;
+    height: 500px;
+    background-color: #09223b;
+    margin: 30px 0 0 0;
+    padding:50px
+    
+}
+
+footer img{
+    margin: 300px 0;
+}
+.boxs{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin:70px 70px;
+    text-align: justify;
+    
+}
+
+
+.boxs a{
+    text-decoration: none;
+    color: #ffff
+
+
+}
+
+.boxs ul{
+   display: flex;
+    flex-direction: column;
+    margin:70spapx 0;
+    padding: 0;
+    align-items:flex-start;
+
+}
+
+.boxs h2{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.boxs li{
+    display: flex;
+    color: #ffffff;
+    justify-content: left;
+    margin: 20px 0;
+    text-align: left;
+   
+}
+.boxs img{
+    margin: 30px 0;
+}
+#rede-social{
+    width: 88px;
+    height: 40px;
+}
+
+main{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    width: 1400px;
+    margin: 0 auto;
+    
+}
