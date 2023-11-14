@@ -392,7 +392,7 @@ p{
 }
 
 #baner-final1 {
-    background: url(./components/images/Mini_banner/baner-final/baner-final.png);
+    background: url("./components/images/Mini_banner/baner-final/baner-final.png");
     
 }
 
